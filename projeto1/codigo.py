@@ -58,13 +58,15 @@ for linha in tabela.index:
     if obs != "nan":
         pyautogui.write(obs)
     pyautogui.press("enter")
-    pyautogui.hotkey("ctrl, home") #volta para o topo da página
+    pyautogui.hotkey("ctrl, home") #volta para o topo da página se necessario
     time.sleep(0.5)
 
 
 
 #resumindo o que esse código acima faz:
+#lê o arquivo csv
+#para cada linha do arquivo csv ele pega as informações de cada coluna
+#e preenche no site da empresa
 
-#
 
 
