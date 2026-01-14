@@ -28,7 +28,7 @@ time.sleep(1)
 
 #pandas vai ler o arquivo csv
 #tambem daria no excel: pandas.read_excel("produtos.xlsx") ou colocando o caminho completo até a planilha
-tabela = pandas.read_csv("C:/projetos_programacao/vscode/teste_python/projeto1/produtos.csv") # o caminho do arquivo CSV deve ser ajustado conforme o ambiente local
+tabela = pandas.read_csv("C:/projetos_programacao/vscode/teste_python/automacao-cadastro-produtos/produtos.csv") # o caminho do arquivo CSV deve ser ajustado conforme o ambiente local
 
 #vai passar por cada linha da tabela
 #a variavel linha foi criada devido o .index, se fosse coluna seria .columns
@@ -69,6 +69,7 @@ for linha in tabela.index:
 #e preenche no site da empresa
 
 #pyautogui.hotkey("ctrl, home") É desnecessario, mas coloquei por garantia que o click sempre irá acertar no exato ponto que coloquei
+
 
 
 
