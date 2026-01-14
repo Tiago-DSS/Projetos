@@ -27,8 +27,8 @@ pyautogui.press("enter")
 time.sleep(1)
 
 #pandas vai ler o arquivo csv
-#tambem daria para no excel: pandas.read_excel("produtos.xlsx") ou colocando o caminho completo até a planilha
-tabela = pandas.read_csv("C:/projetos_programacao/vscode/teste_python/CURSO_GRATIS_HASHTAG/projeto1/produtos.csv")
+#tambem daria no excel: pandas.read_excel("produtos.xlsx") ou colocando o caminho completo até a planilha
+tabela = pandas.read_csv("C:/projetos_programacao/vscode/teste_python/projeto1/produtos.csv")
 
 #vai passar por cada linha da tabela
 #a variavel linha foi criada devido o .index, se fosse coluna seria .columns
@@ -66,3 +66,4 @@ for linha in tabela.index:
 #resumindo o que esse código acima faz:
 
 #
+
