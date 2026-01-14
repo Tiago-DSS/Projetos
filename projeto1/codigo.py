@@ -68,5 +68,8 @@ for linha in tabela.index:
 #para cada linha do arquivo csv ele pega as informações de cada coluna
 #e preenche no site da empresa
 
+#pyautogui.hotkey("ctrl, home") É desnecessario, mas coloquei por garantia que o click sempre irá acertar no exato ponto que coloquei
+
+
 
 
