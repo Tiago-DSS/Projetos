@@ -8,7 +8,7 @@ import pyautogui #API para automações
 import time #API para trabalhar com tempo
 
 link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
-email = "emailboladao@gmail.com"
+email = "emailinventado@gmail.com"
 
 pyautogui.PAUSE = 1 # para dar um tempo de uma ação para outra
 
@@ -64,4 +64,5 @@ for linha in tabela.index:
 
 
 #resumindo o que esse código acima faz:
+
 #
